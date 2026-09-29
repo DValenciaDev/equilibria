@@ -1,0 +1,70 @@
+:root {
+  --verde-principal: #4CAF50;
+  --verde-oscuro: #2E7D32;
+  --verde-claro: #A5D6A7;
+  --negro: #000000;
+  --morado-profundo: #663399;
+  --morado-oscuro: #5D3A7A;
+  --azul-profundo: #1E3A8A;
+  --azul-claro: #60A5FA;
+}
+/* Interfaz de la página principal */
+.logo-navbar {
+  object-fit: contain;
+  width: 70px;
+  height: 80px;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #10204d, #3d1f66);
+  color: white;
+  padding: 100px 0;
+}
+
+.hero-blob {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #60A5FA 0%, #1E3A8A 40%, transparent 70%);
+  filter: blur(60px);
+  opacity: 0.6;
+}
+
+.btn-acento {
+  background-color: #60A5FA;
+  color: #10204d;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-outline-acento {
+  background-color: #663399;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  font-weight: 600;
+}
+
+/* Estilos para el css */
+
+.navbar-custom {
+  background: linear-gradient(135deg, #10204d, #3d1f66);
+  padding: 14px 0;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.navbar-custom .nav-link {
+  color: rgba(255,255,255,0.75);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #60A5FA;
+}
